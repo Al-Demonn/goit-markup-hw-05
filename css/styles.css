@@ -551,6 +551,8 @@ margin-left: 16px;
 	min-width: 165px;
 	height: 40px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* #endregion footer */
 
@@ -568,7 +570,6 @@ margin-left: 16px;
 	opacity: 0;
 	pointer-events: none;
 	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	transition-property: pointer-events;
 }
 
 .backdrop.in-open {
@@ -693,6 +694,7 @@ margin-left: 16px;
 	color: rgba(46, 47, 66, 0.4);
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
+	background-color: transparent;
 	outline: transparent;
 	padding: 8px 16px;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -756,7 +758,7 @@ margin-left: 16px;
 	border: none;
 	border-radius: 4px;
 	padding: 16px 32px;
-	width: 169px;
+	min-width: 169px;
 	height: 56px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	background: #4d5ae5;
