@@ -541,18 +541,16 @@ width: calc((100%-3*24px)/4);
 	gap: 24px;
 }
 
-.subscribe {
+.subscribe-icon {
 fill: #fff;
+margin-left: 16px;
 }
 
 .footer-submit {
 	padding: 8px 24px;
-	max-width: 165px;
+	min-width: 165px;
 	height: 40px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 16px;
 }
 /* #endregion footer */
 
