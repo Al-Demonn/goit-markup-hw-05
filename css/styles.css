@@ -489,7 +489,7 @@ width: calc((100%-3*24px)/4);
 .footer-soc-box {
 	width: 208px;
 	height: 80px;
-	margin-right: 80px;
+	margin-right: 8px;
 }
 
 .soc-text {
@@ -524,7 +524,6 @@ width: calc((100%-3*24px)/4);
 	height: 40px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	padding-left: 16px;
-	margin-right: 24px;
 	outline: transparent;
 	background-color: transparent;
 }
